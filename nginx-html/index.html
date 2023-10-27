@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Docker Urano</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s ease;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+            background-color: #333;
+            color: #f4f4f4;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .column {
+            flex-basis: 100%;
+            padding: 20px;
+            background-color: #ddd;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .column:hover {
+            transform: scale(1.05);
+        }
+        /* Estilos del footer */
+        .footer {
+            background-color: #333;
+            color: #f4f4f4;
+            padding: 30px 0;
+            text-align: center;
+        }
+        @media screen and (min-width: 600px) {
+            .column {
+                flex-basis: calc(50% - 40px);
+                margin: 20px;
+            }
+        }
+        @media screen and (min-width: 800px) {
+            .column {
+                flex-basis: calc(33.33% - 40px);
+                margin: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Bienvenido a Docker</h1>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h2>Maquinas Virtuales</h2>
+            <p>Son software que emulan o simulan el funcionamiento de un ordenador real con sus componentes de hardware, sistema operativo y aplicaciones.</p>
+        </div>
+        <div class="column">
+            <h2>Docker</h2>
+            <p>Docker es una plataforma de codigo abierto que permite crear, usar y ejecutar aplicaciones dentro de contenedores de software.</p>
+        </div>
+        <div class="column">
+            <h2>Beneficios de Docker</h2>
+            <p>Aislamiento, Portabilidad, Reutilizacion, Colaboracion.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>@2023 - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
