@@ -2,7 +2,7 @@
 
 ### commands
 
-´´´
+```
 
 docker build -t web .
 
@@ -12,8 +12,7 @@ docker run -p 80:80 web
 
 docker ps -a
 
-
-´´´
+```
 
 
 En este ejemplo, estoy creando una imagen Docker que contiene un servidor web Nginx que sirve un sitio web HTML.
